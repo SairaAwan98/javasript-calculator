@@ -1,0 +1,72 @@
+html, body{
+    background: linear-gradient(to top, #2E1437, #948E99);
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto
+}
+.calcboundary{
+
+   justify-content: center;
+   /* border: 5px solid yellow; */
+   margin: 70px;
+   box-shadow: -1px 1px 17px 14px rgba(3,3,3,0.96);
+   align-items: center;
+  /* width: 650px !important; */
+  border-radius: 20px;
+  width: 70% !important;
+
+
+}
+
+.gradient-text {
+    font-size: 7vw;
+    padding: 40px;
+    margin-top: -30px;
+    text-align: center;
+    color: #fcedd8;
+    font-family: 'Niconne', cursive;
+    font-weight: 700;
+    text-shadow: 5px 5px 0px #eb452b, 
+                10px 10px 0px #efa032, 
+                15px 15px 0px #46b59b, 
+                20px 20px 0px #017e7f, 
+                25px 25px 0px #052939, 
+                30px 30px 0px #c11a2b, 
+                35px 40px 5px #2E1437;
+        
+} 
+.secondtextbox{
+    font-size: 45px !important;
+    border-left: 5px inset #052939;
+    border-right:5px inset #052939;
+    border-bottom:  5px inset #052939;
+    font-weight: 100px !important;
+
+    
+
+}
+.firsttextbox{
+    font-size: 55px !important;
+    border-left: 5px inset #052939;
+    border-right: 5px inset #052939;
+    border-top:  5px inset #052939;
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+button{
+    
+    width: 80px !important;
+    margin: 10px !important;
+    /* background: linear-gradient(to right, #ff0099, #493240); */
+    background: linear-gradient(to right, #3494e6, #ec6ead);
+    color: white !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+}
+.zero{
+    
+    width: 180px !important;
+}
